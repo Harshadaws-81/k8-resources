@@ -4,6 +4,6 @@ metadata:
   name: nginx
 spec:
   containers:
-  # docker run -d --name nginx nginx:v1 .
+  # EQUIVALENT ---> docker run -d --name nginx nginx:v1 .
   - name: nginx
     image: nginx
