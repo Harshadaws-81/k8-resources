@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: nginx-config
+data:
+  name: Harsha
+  course: DevOps
+  topic: Kubernetes
+  
