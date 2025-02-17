@@ -39,6 +39,10 @@ spec:
   ports:
   - name: nginx-svc-port
     protocol: TCP
-    port: 80
-    targetPort: 80
+    port: 80    # service port
+    targetPort: 80  # container port
     nodePort: 30007
+
+
+    # Here " PV " is created by Storage Class
+    # Here EFS volume creation is not Dynamic ; we have to create it Manually
